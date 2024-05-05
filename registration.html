@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<style>
+    body{
+        background-color: #BF9270;
+    }
+    h1{
+        color: black;
+        text-align: center;
+    }
+    input {
+    margin: 10px;
+    }
+    #container{
+        background-color: #FFEDDB;
+        padding: 20px;
+        border-radius: 15px;
+        margin: 30px;
+    }
+</style>
+<body>
+    <h1>Free Registration</h1>
+    <div id="container">
+        <form action="">
+            <table>
+                <th>
+                    <tr>
+                        <td><label for="nim">NIM</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="nim" id="nim"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nama">Nama</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="nama" id="nama"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="studi">Program Studi</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="studi" id="studi"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>:</td>
+                        <td><input type="radio" name="gender" id="laki" value="laki"><label for="laki">Laki-Laki</label><br>
+                            <input type="radio" name="gender" id="perempuan" value="perempuan"><label for="perempuan">Perempuan</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="ukm">Pilih UKM</label></td>
+                        <td>:</td>
+                        <td><select name="ukm" id="ukm">
+                            <optgroup label="Himpunan Mahasiswa">
+                                <option value="teknik">Teknik Informatika</option>
+                                <option value="sastra">Sastra</option>
+                                <option value="hukum">Hukum</option>
+                            </optgroup>
+                            <optgroup label="Olahraga">
+                                <option value="basket">Basket</option>
+                                <option value="voli">Voli</option>
+                                <option value="sepakbola">Sepakbola</option>
+                            </optgroup>
+                            <optgroup label="Sains">
+                                <option value="biologi">Biologi</option>
+                                <option value="fisika">Fisika</option>
+                                <option value="kimia">Kimia</option>
+                            </optgroup>
+                            <optgroup label="Seni dan Budaya">
+                                <option value="paduan">Paduan Suara</option>
+                                <option value="tari">Tari</option>
+                                <option value="teater">Teater</option>
+                            </optgroup>
+                        </select>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>Pilih hari</td>
+                        <td>:</td>
+                        <td><input type="checkbox" name="hari" id="senin" value="senin">
+                            <label for="senin">Senin</label><br>
+                    
+                            <input type="checkbox" name="hari" id="selasa" value="selasa">
+                            <label for="selasa">Selasa</label><br>
+                    
+                            <input type="checkbox" name="hari" id="rabu" value="rabu">
+                            <label for="rabu">Rabu</label><br>
+                    
+                            <input type="checkbox" name="hari" id="kamis" value="kamis">
+                            <label for="kamis">Kamis</label><br>
+
+                            <input type="checkbox" name="jumat" id="jumat" value="jumat">
+                            <label for="jumat">Jumat</label><br></td>
+                    </tr>
+                </th>
+            </table>
+
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Hapus">
+        </form>      
+    </div>
+</body>
+</html>
